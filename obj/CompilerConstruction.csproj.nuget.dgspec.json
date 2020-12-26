@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\computers way\\Desktop\\CompilerConstruction\\CompilerConstruction.csproj": {}
+    "/home/fahama/Workstation/Projects/Compiler Project/CompilerConstruction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\computers way\\Desktop\\CompilerConstruction\\CompilerConstruction.csproj": {
+    "/home/fahama/Workstation/Projects/Compiler Project/CompilerConstruction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\computers way\\Desktop\\CompilerConstruction\\CompilerConstruction.csproj",
+        "projectUniqueName": "/home/fahama/Workstation/Projects/Compiler Project/CompilerConstruction.csproj",
         "projectName": "CompilerConstruction",
-        "projectPath": "C:\\Users\\computers way\\Desktop\\CompilerConstruction\\CompilerConstruction.csproj",
-        "packagesPath": "C:\\Users\\computers way\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\computers way\\Desktop\\CompilerConstruction\\obj\\",
+        "projectPath": "/home/fahama/Workstation/Projects/Compiler Project/CompilerConstruction.csproj",
+        "packagesPath": "/home/fahama/.nuget/packages/",
+        "outputPath": "/home/fahama/Workstation/Projects/Compiler Project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\computers way\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/fahama/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

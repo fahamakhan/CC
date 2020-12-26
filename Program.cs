@@ -7,7 +7,8 @@ namespace CompilerConstruction
     class Program
     {
         static Boolean Isidentifier (String word){
-            string pattern = @"(_|@)?([a-zA-z][a-zA-Z]*[_]*)";
+            string pattern = @"(_|@)([a-z+A-Z]+)";
+            //string pattern = @"(_|@)?([a-zA-z][a-zA-Z]*[_]*)"; working
             // string pattern = @"(_|@)?([a-zA-z]([a-zA-Z]*|))";
             Regex rg = new Regex(pattern);
             if(rg.IsMatch(word)==true){
@@ -58,7 +59,7 @@ namespace CompilerConstruction
 
         static void Main(string[] args)
         {
-           String code_a = "int a = 1;\n a+=2;\n if(a==2 || a<=2 && a>0){a++;}\n int [] array; ##umer sadsadsadas##"+
+           String code_a = "int _a = 1;\n a+=2;\n if(a==2 || a<=2 && a>0){a++;}\n int [] array; ##umer sadsadsadas##"+
            "\nString @name = umer;\n int b = a + 2;";
             String code_b = "_abc int a=1\na==3  _dfd";
  
